@@ -27,7 +27,7 @@ What is meant by cleaning your room? It may sound gross, but dung beetles recycl
 - Does it look like it’s been eaten by a beetle? 
 
 #### The Japanese beetle is a highly destructive and invasive beetle in Nebraska 
-- It can eat the whole leaf sometimes, only leaving 
+- It can eat the whole leaf sometimes, only leaving the viens 
 - This can sometimes stress and kill the plant.
 
 ### Beetles and Dirt

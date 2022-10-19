@@ -10,7 +10,9 @@ import "../styles/globals.css";
 import type { AppProps } from "next/app";
 import { MDXProvider } from "@mdx-js/react";
 import type { MDXComponents } from "mdx/types";
+import { Navbar } from "../components/navbar";
 import Image from "next/image";
+import Link from "next/link";
 
 const components: MDXComponents = {
   h1: ({ children }) => (
@@ -29,13 +31,21 @@ const components: MDXComponents = {
   strong: ({ children }) => <strong className="text-xl">{children}</strong>,
   // @ts-ignore
   img: Image,
-  a: ({ children, href }) => <a href={href}>{children}</a>,
+  a: ({ children, href }) => (
+    <Link
+      className="text-blue-500 hover:text-blue-700 visited:text-purple-800"
+      href={href}
+    >
+      {children}
+    </Link>
+  ),
 };
 
 export default function ({ Component, pageProps }: AppProps) {
   return (
     <MDXProvider components={components}>
-      <main className="container-md mx-auto prose w-max mx-5 lg:prose-2xl">
+      <Navbar />
+      <main className="container-md mx-auto prose w-max mx-5 lg:prose-2xl pb-52">
         <Component {...pageProps} />
       </main>
     </MDXProvider>

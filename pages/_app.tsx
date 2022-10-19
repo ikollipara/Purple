@@ -39,15 +39,19 @@ const components: MDXComponents = {
       {children}
     </Link>
   ),
+  wrapper: ({ components, ...rest }) => (
+    <main
+      className="container-md mx-auto prose w-max mx-5 lg:prose-2xl pb-52"
+      {...rest}
+    />
+  ),
 };
 
 export default function ({ Component, pageProps }: AppProps) {
   return (
     <MDXProvider components={components}>
       <Navbar />
-      <main className="container-md mx-auto prose w-max mx-5 lg:prose-2xl pb-52">
-        <Component {...pageProps} />
-      </main>
+      <Component {...pageProps} />
     </MDXProvider>
   );
 }

@@ -13,12 +13,14 @@ import type { MDXComponents } from "mdx/types";
 import { Navbar } from "../components/navbar";
 import Image from "next/image";
 import Link from "next/link";
+import Head from "next/head";
 
 const components: MDXComponents = {
   h1: ({ children }) => (
-    <h1 className="text-8xl text-center text-white first:mt-5 bg-gray-600 mx-5 rounded-lg py-2">
-      {children}
-    </h1>
+    <>
+      <h1 className="first:mt-12">{children}</h1>
+      <hr />
+    </>
   ),
   h2: ({ children }) => <h2 className="text-5xl">{children}</h2>,
   h3: ({ children }) => <h3>{children}</h3>,
@@ -41,7 +43,7 @@ const components: MDXComponents = {
   ),
   wrapper: ({ components, ...rest }) => (
     <main
-      className="container-md mx-auto prose w-max mx-5 lg:prose-2xl pb-52"
+      className="container-md mx-auto prose w-max lg:prose-2xl pb-52"
       {...rest}
     />
   ),
@@ -49,9 +51,15 @@ const components: MDXComponents = {
 
 export default function ({ Component, pageProps }: AppProps) {
   return (
-    <MDXProvider components={components}>
-      <Navbar />
-      <Component {...pageProps} />
-    </MDXProvider>
+    <>
+      <Head>
+        <title>Purple</title>
+        <html data-theme="autumn" />
+      </Head>
+      <MDXProvider components={components}>
+        <Navbar />
+        <Component {...pageProps} />
+      </MDXProvider>
+    </>
   );
 }

@@ -29,17 +29,28 @@ export const getStaticProps: GetStaticProps = async (context) => {
 const Lessons = (props: InferGetStaticPropsType<typeof getStaticProps>) => (
   <>
     <h1 className="text-7xl text-center mb-2">Lessons</h1>
-    <p className="mx-auto text-3xl font-light max-w-screen-lg shadow-md p-5 mb-12 shadow-slate-200">
+    <p className="mx-auto text-3xl font-light max-w-screen-lg mb-12">
       This is a collection of Lessons for my Luke Scholar Capstone. Each lesson
       is designed to get students outside and experiencing nature.
     </p>
-    <div className="text-center flex flex-col text-3xl">
-      {props.files.map((file) => (
-        <Link href={`/lessons/${file}`} passHref>
-          <a className="mb-4 text-blue-400 hover:text-blue-600">{file}</a>
-        </Link>
-      ))}
-    </div>
+    <table className="table w-1/2 mx-auto">
+      <thead>
+        <tr>
+          <th>Lessons</th>
+        </tr>
+      </thead>
+      <tbody>
+        {props.files.map((file) => (
+          <tr key={file}>
+            <th>
+              <Link href={`/lessons/${file}`} passHref>
+                <a className="mb-4 text-blue-400 hover:text-blue-600">{file}</a>
+              </Link>
+            </th>
+          </tr>
+        ))}
+      </tbody>
+    </table>
   </>
 );
 

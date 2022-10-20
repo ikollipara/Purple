@@ -7,14 +7,11 @@
  */
 
 export const Navbar = () => (
-  <nav className="bg-slate-600 text-2xl text-white flex flex-row justify-between px-5 shadow-slate-300">
-    <h1 className="text-3xl my-2 text-purple-400 bg-slate-100 px-2 rounded-lg">
+  <nav className="navbar border-solid border-b-primary-focus border">
+    <button className="btn btn-ghost normal-case text-xl text-purple-600 mr-auto">
       Purple
-    </h1>
-    <a
-      className="self-center bg-blue-500 px-2 my-2 rounded-lg hover:ring-4"
-      href="/lessons"
-    >
+    </button>
+    <a className="btn btn-ghost normal-case text-xl" href="/lessons">
       Lessons
     </a>
   </nav>

@@ -8,6 +8,7 @@
 
 import fs from "fs/promises";
 import { GetStaticProps, InferGetStaticPropsType } from "next";
+import Head from "next/head";
 import Link from "next/link";
 
 export const getStaticProps: GetStaticProps = async (context) => {
@@ -28,6 +29,9 @@ export const getStaticProps: GetStaticProps = async (context) => {
 
 const Lessons = (props: InferGetStaticPropsType<typeof getStaticProps>) => (
   <>
+    <Head>
+      <title>Purple - Lessons</title>
+    </Head>
     <h1 className="text-7xl text-center mb-2">Lessons</h1>
     <p className="mx-auto text-3xl font-light max-w-screen-lg mb-12">
       This is a collection of Lessons for my Luke Scholar Capstone. Each lesson

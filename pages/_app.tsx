@@ -18,6 +18,9 @@ import Head from "next/head";
 const components: MDXComponents = {
   h1: ({ children }) => (
     <>
+      <Head>
+        <title>Purple - {children}</title>
+      </Head>
       <h1 className="first:mt-12">{children}</h1>
       <hr />
     </>
@@ -51,15 +54,9 @@ const components: MDXComponents = {
 
 export default function ({ Component, pageProps }: AppProps) {
   return (
-    <>
-      <Head>
-        <title>Purple</title>
-        <html data-theme="autumn" />
-      </Head>
-      <MDXProvider components={components}>
-        <Navbar />
-        <Component {...pageProps} />
-      </MDXProvider>
-    </>
+    <MDXProvider components={components}>
+      <Navbar />
+      <Component {...pageProps} />
+    </MDXProvider>
   );
 }

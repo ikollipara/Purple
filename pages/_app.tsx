@@ -21,17 +21,17 @@ const components: MDXComponents = {
       <Head>
         <title>Purple - {children}</title>
       </Head>
-      <h1 className="first:mt-12">{children}</h1>
+      <h1 className="first:mt-12 ml-3">{children}</h1>
       <hr />
     </>
   ),
-  h2: ({ children }) => <h2 className="text-5xl">{children}</h2>,
-  h3: ({ children }) => <h3>{children}</h3>,
-  h4: ({ children }) => <h4>{children}</h4>,
-  h5: ({ children }) => <h5>{children}</h5>,
-  h6: ({ children }) => <h6>{children}</h6>,
+  h2: ({ children }) => <h2 className="mx-3">{children}</h2>,
+  h3: ({ children }) => <h3 className="mx-3">{children}</h3>,
+  h4: ({ children }) => <h4 className="mx-3">{children}</h4>,
+  h5: ({ children }) => <h5 className="mx-3">{children}</h5>,
+  h6: ({ children }) => <h6 className="mx-3">{children}</h6>,
   p: ({ children }) => (
-    <p className="text-xl leading-relaxed my-2">{children}</p>
+    <p className="text-xl leading-relaxed my-2 mx-3">{children}</p>
   ),
   strong: ({ children }) => <strong className="text-xl">{children}</strong>,
   // @ts-ignore
@@ -46,7 +46,7 @@ const components: MDXComponents = {
   ),
   wrapper: ({ components, ...rest }) => (
     <main
-      className="container-md mx-auto prose w-max lg:prose-2xl pb-52"
+      className="lg:mx-auto prose prose-sm lg:prose-2xl pb-52 w-full"
       {...rest}
     />
   ),

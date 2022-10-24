@@ -11,7 +11,6 @@ import type { AppProps } from "next/app";
 import { MDXProvider } from "@mdx-js/react";
 import type { MDXComponents } from "mdx/types";
 import { Navbar } from "../components/navbar";
-import Image from "next/image";
 import Link from "next/link";
 import Head from "next/head";
 
@@ -33,9 +32,10 @@ const components: MDXComponents = {
   p: ({ children }) => (
     <p className="text-xl leading-relaxed my-2 mx-3">{children}</p>
   ),
+  img: ({ src }) => (
+    <img className="ml-[15%] lg:inline-flex lg:ml-0 lg:first:ml-52" src={src} />
+  ),
   strong: ({ children }) => <strong className="text-xl">{children}</strong>,
-  // @ts-ignore
-  img: Image,
   a: ({ children, href }) => (
     <Link
       className="text-blue-500 hover:text-blue-700 visited:text-purple-800"

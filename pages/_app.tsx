@@ -49,7 +49,7 @@ const components: MDXComponents = {
   ),
   wrapper: ({ components, ...rest }) => (
     <main
-      className="lg:mx-auto prose prose-sm lg:prose-2xl pb-52 w-full"
+      className="lg:mx-auto prose prose-sm lg:prose-lg pb-52 w-full"
       {...rest}
     />
   ),

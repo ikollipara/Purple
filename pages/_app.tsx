@@ -30,7 +30,10 @@ const components: MDXComponents = {
   h5: ({ children }) => <h5 className="mx-3">{children}</h5>,
   h6: ({ children }) => <h6 className="mx-3">{children}</h6>,
   p: ({ children }) => (
-    <p className="text-xl leading-relaxed my-2 mx-3">{children}</p>
+    <p className="text-base leading-normal mx-3 mb-4">{children}</p>
+  ),
+  li: ({ children }) => (
+    <li className="text-base leading-normal pt-1">{children}</li>
   ),
   img: ({ src }) => (
     <img className="ml-[15%] lg:inline-flex lg:ml-0 lg:first:ml-52" src={src} />

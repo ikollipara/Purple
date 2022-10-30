@@ -33,7 +33,7 @@ const components: MDXComponents = {
     <p className="text-base leading-normal mx-3 mb-4">{children}</p>
   ),
   blockquote: ({ children }) => (
-    <blockquote className="not-prose">{children}</blockquote>
+    <blockquote className="first:not-prose">{children}</blockquote>
   ),
   li: ({ children }) => (
     <li className="text-base leading-normal pt-1">{children}</li>

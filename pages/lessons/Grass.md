@@ -39,4 +39,5 @@ Materials: A tape measure, pen and paper
 **You can do this activity in winter too. Even though the grass may appear dead, it is very much alive underneath within its root system** 
 
 
-To learn more about tallgrass prairies visit [National Park Service](https:/https://www.nps.gov/tapr/learn/nature/a-complex-prairie-ecosystem.htm/)
+To learn more about tallgrass prairies visit [National Park Service](https://www.nps.gov/tapr/learn/nature/a-complex-prairie-ecosystem.htm)
+

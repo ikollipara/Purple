@@ -19,28 +19,16 @@ Watch a timelapse of a Dandelion here:
 [Dandelion Timelapse](https://www.youtube.com/watch?v=UQ_QqtXoyQw)
 
 
-Go Outside:
+## Go Outside:
 On a nature walk, take note of how many dandelions you see. Do they occur in clusters? Note the different stages that you see. 
 
 * This is a great opportunity to explain the parts of the flower by letting kids explore for themselves and ask their own questions. 
      - Point out that an individual seed is found at the end of the pappus (the white fluffy stuff)
-     - The pappus is helful appendage that allows the seed to fly through wind. It is important that the seed gets away from its parent plant so that it can start its own family and the two families aren't fighting for resouces. 
+     - The pappus is a helpful appendage that allows the seed to fly through wind. It is important that the seed gets away from its parent plant so that it can start its own family. This prevents the two families from having to fight for resources. 
 
 **Did you know:** All parts of a dandelion are *edible*? Maybe don't mention this to kids in case you are concerned about the possible outcomea. But if you're an adventurous spirit, I would tell you to go for it!
 
-#### What is the difference between a weed and a flower?
 
-Nothing! A weed is just a flower we don't want in a certain place (such as our yard). But that doesn't mean other organisms cannot rely on it. 
-
-
-## Asteraceaes (sunflower/daisy family)
->Pronounced: "aster - Ai -See - Ai"
->You can call them asters for short
-
-![](https://i.imgur.com/jilNTPQ.png)
-
-
-> Asteraceae is a hard word to pronounce, nevertheless, it is the family name of some of our favorite flowers - Sunflowers, Daisies, and even the Dandelions above. Its similar to your own last name - it explains who is related to you. Protip: You should definitely try to get kids to say this word - it will absolutely adorable.
 
 
 

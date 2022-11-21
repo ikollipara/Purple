@@ -9,10 +9,12 @@
 import Link from "next/link";
 
 export const Navbar = () => (
-  <nav className="navbar border-solid border-b-primary-focus border">
-    <button className="btn btn-ghost normal-case text-xl text-purple-600 mr-auto">
-      Purple
-    </button>
+  <nav className="navbar border-solid border-b-black border">
+    <Link passHref href="/">
+      <a className="btn btn-ghost normal-case text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-green-800 mr-auto">
+        Native Nebraska
+      </a>
+    </Link>
     <section className="inline-flex">
       <Link passHref href="/lessons">
         <a className="btn btn-ghost normal-case text-xl">Lessons</a>

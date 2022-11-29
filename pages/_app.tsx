@@ -18,7 +18,7 @@ const components: MDXComponents = {
   h1: ({ children }) => (
     <>
       <Head>
-        <title>Purple - {children}</title>
+        <title>Native Nebraska - {children}</title>
       </Head>
       <h1 className="first:mt-12 ml-3">{children}</h1>
       <hr />

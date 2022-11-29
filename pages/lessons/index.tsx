@@ -32,11 +32,11 @@ const Lessons = (props: InferGetStaticPropsType<typeof getStaticProps>) => (
     <Head>
       <title>Native Nebraska - Lessons</title>
     </Head>
-    <h1 className="text-7xl text-center my-2">Lessons</h1>
-    <p className="mx-auto text-3xl font-light max-w-screen-lg mb-12">
+    <h1 className="text-5xl lg:text-7xl text-center my-2">Lessons</h1>
+    <p className="mx-auto text-center text-xl lg:text-3xl font-light max-w-screen-lg mb-12">
       Each Lesson is designed to get students outside.
     </p>
-    <table className="table w-1/2 mx-auto">
+    <table className="table w-1/2 mx-auto mb-12">
       <thead>
         <tr>
           <th>Lessons</th>

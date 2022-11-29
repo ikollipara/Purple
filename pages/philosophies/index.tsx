@@ -34,23 +34,20 @@ const Philosophies = (
 ) => (
   <>
     <Head>
-      <title>Native Nebraska - Lessons</title>
+      <title>Native Nebraska - Philosophies</title>
     </Head>
-    <h1 className="text-7xl text-center my-2">Lessons</h1>
-    <p className="mx-auto text-3xl font-light max-w-screen-lg mb-12">
-      Each Lesson is designed to get students outside.
-    </p>
-    <table className="table w-1/2 mx-auto">
+    <h1 className="text-5xl lg:text-7xl text-center my-2">Philosophies</h1>
+    <table className="table w-1/2 mx-auto mt-3">
       <thead>
         <tr>
-          <th>Lessons</th>
+          <th>Philosophies</th>
         </tr>
       </thead>
       <tbody>
         {props.files.map((file) => (
           <tr key={file}>
             <th>
-              <Link href={`/lessons/${file}`} passHref>
+              <Link href={`/philosophies/${file}`} passHref>
                 <a className="mb-4 text-blue-400 hover:text-blue-600">
                   {toTitleCase(file.replaceAll("-", " "))}
                 </a>

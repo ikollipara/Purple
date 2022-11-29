@@ -1,4 +1,5 @@
 # Trees
+>Objective: Learners will understand how trees exchange gasses and that trees, while important, don't belong everywhere.
 
 ## Engage: A tree breathes 
 Objective: Learners will understand that a tree uses stomata and lenticels to exchange gas. Learners will be able to explore nature and find lenticels for themselves while also exploring other tree facts.   
@@ -48,7 +49,7 @@ This is called the terminal bud scale scar. Between each of these scars is one y
 
 Count *"How Old the Tree Is"* based on the number of scars you see. You will be able to find these scars on smaller branches such as twigs. Keep in mind this isn't an accurate representation of how old the tree is but it does give us an idea about the most recent years of growth.
 
-### Questions:
+## Questions:
 - Was the length different between the scars? 
     - Why do you think that is? (Maybe there was a longer winter one year or a shorter spring)
 - How big around was the tree or twig when you looked at the scars?
@@ -75,33 +76,29 @@ What's one instance where it wouldn't be good to have a tree?
 
 **Now, how about a prairie?** Do trees belong *there*?
 
-## Go Outside (specifically to a tallgrass prairie):
-Have learners roam the prairie see what they observe
 
->Trees are great but we don't want them everywhere
+
+## Go Outside (specifically to a tallgrass prairie):
+Have learners roam the prairie and see what they observe
 
 What are some aspects of a prairie?
 - Vegetation: Tall grass, 
 Trees don't belong in prairies because large animals (think buffalo) have to roam through this space, they would *bonk* into the trees. 
 
-At the prairie - count the number of trees in it. 
+At the prairie - count the number of trees in it. Help them keep track of how many different kinds of trees they see and how tall they are. 
 
-Questions:
+## Questions:
 - Do these trees occur in patches? How tall are the trees?
-- 
+- Is there something we could do to get rid of the trees? Should we? (Fire is actually recommended for prairies because it reduces the proliferation of trees while sustaining native vegetation.)
+- Describe the surrounding habitat of the tree. How big was this prairie?
+
+## Additional Materials:
+
+[Tree Planting and Prairie Conservation](https://prairieecologist.com/2015/01/20/ruminations-on-tree-planting-and-prairie-conservation/)
+
+[The Darker Side of Tree Planting](https://prairieecologist.com/2021/04/26/the-darker-side-of-tree-planting-in-the-great-plains/)
 
 
-https://prairieecologist.com/2015/01/20/ruminations-on-tree-planting-and-prairie-conservation/ 
+[The Importance of Fire in Prairies](https://prairieecologist.com/2021/01/11/is-fire-really-essential-in-prairies/)
 
-https://prairieecologist.com/2021/04/26/the-darker-side-of-tree-planting-in-the-great-plains/
-
-
-
-## Extra
-
-aerating knees in a cypress tree
-![](https://i.imgur.com/CLKegGB.jpg)
-
-https://nfs.unl.edu/CommunityForestry/Trees/Baldcypress.pdf 
-
-one of many raised pores in the stem of a woody plant that allows gas exchange between the atmosphere and the internal tissues.
+These are all from "The Prairie Ecologist" journal. The writers do a really great job of addressing lesser known concerns about prairie conservation and starting that conservation conversation. 

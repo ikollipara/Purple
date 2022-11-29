@@ -1,9 +1,5 @@
 /**
- * index.tsx
- * Ian Kollipara
- * 2022.10.18
- *
- * Lessons Hub
+ * philosophies/index.tsx
  */
 
 import fs from "fs/promises";
@@ -11,9 +7,15 @@ import { GetStaticProps, InferGetStaticPropsType } from "next";
 import Head from "next/head";
 import Link from "next/link";
 
+function toTitleCase(str) {
+  return str.replace(/\w\S*/g, function (txt) {
+    return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+  });
+}
+
 export const getStaticProps: GetStaticProps = async (context) => {
   const files = await fs
-    .readdir("./pages/lessons")
+    .readdir("./pages/philosophies")
     .then((files) =>
       files
         .filter((file) => file.endsWith("md"))
@@ -27,7 +29,9 @@ export const getStaticProps: GetStaticProps = async (context) => {
   };
 };
 
-const Lessons = (props: InferGetStaticPropsType<typeof getStaticProps>) => (
+const Philosophies = (
+  props: InferGetStaticPropsType<typeof getStaticProps>
+) => (
   <>
     <Head>
       <title>Native Nebraska - Lessons</title>
@@ -47,7 +51,9 @@ const Lessons = (props: InferGetStaticPropsType<typeof getStaticProps>) => (
           <tr key={file}>
             <th>
               <Link href={`/lessons/${file}`} passHref>
-                <a className="mb-4 text-blue-400 hover:text-blue-600">{file}</a>
+                <a className="mb-4 text-blue-400 hover:text-blue-600">
+                  {toTitleCase(file.replaceAll("-", " "))}
+                </a>
               </Link>
             </th>
           </tr>
@@ -57,4 +63,4 @@ const Lessons = (props: InferGetStaticPropsType<typeof getStaticProps>) => (
   </>
 );
 
-export default Lessons;
+export default Philosophies;

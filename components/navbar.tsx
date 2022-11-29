@@ -19,8 +19,8 @@ export const Navbar = () => (
       <Link passHref href="/lessons">
         <a className="btn btn-ghost normal-case text-xl">Lessons</a>
       </Link>
-      <Link passHref href="/philosophy">
-        <a className="btn btn-ghost normal-case text-xl">Philosophy</a>
+      <Link passHref href="/philosophies">
+        <a className="btn btn-ghost normal-case text-xl">Philosophies</a>
       </Link>
     </section>
   </nav>

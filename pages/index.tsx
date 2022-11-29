@@ -24,21 +24,21 @@ export default function HomePage() {
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-screen">
-            <h1 className="text-8xl font-bold bg-clip-text bg-gradient-to-r from-green-400 to-green-800 text-transparent my-4">
+            <h1 className="text-6xl lg:text-8xl font-bold bg-clip-text bg-gradient-to-r from-green-400 to-green-800 text-transparent my-4">
               Native Nebraska
             </h1>
-            <h2 className="text-2xl font-light mb-3">
+            <h2 className="text-lg lg:text-2xl font-light mb-3">
               Native Nebraska is an outdoor educational resource for kids grades
               K-5th that focuses on teaching environmental concepts in an
               attempt to foster a wonder in God’s creation and to teach
               stewardship of His Earth. It can be used in formal education
               settings or less formal settings such as a family outing.
             </h2>
-            <h2 className="text-2xl text-center font-light my-4">
+            <h2 className="text-lg lg:text-2xl text-center font-light my-4">
               This project's design results from intentional reflection of the
               following:
             </h2>
-            <ul className="text-center space-y-4 text-xl">
+            <ul className="text-center space-y-4 text-base lg:text-xl">
               <li className="mt-2">
                 Childhood and the impact of <strong>outdoor</strong>{" "}
                 environmental education

@@ -20,41 +20,56 @@ const components: MDXComponents = {
       <Head>
         <title>Native Nebraska - {children}</title>
       </Head>
-      <h1 className="first:mt-12 ml-3">{children}</h1>
+      <h1 className="text-3xl sm:text-4xl lg:text-6xl mt-2 text-center">
+        {children}
+      </h1>
       <hr />
     </>
   ),
-  h2: ({ children }) => <h2 className="mx-3">{children}</h2>,
-  h3: ({ children }) => <h3 className="mx-3">{children}</h3>,
-  h4: ({ children }) => <h4 className="mx-3">{children}</h4>,
-  h5: ({ children }) => <h5 className="mx-3">{children}</h5>,
-  h6: ({ children }) => <h6 className="mx-3">{children}</h6>,
-  p: ({ children }) => (
-    <p className="text-base leading-normal mx-3 mb-4">{children}</p>
+  h2: ({ children }) => (
+    <h2 className="text-2xl sm:text-3xl lg:text-5xl">{children}</h2>
   ),
-  blockquote: ({ children }) => (
-    <blockquote className="not-prose">{children}</blockquote>
+  h3: ({ children }) => (
+    <h3 className="text-xl sm:text-2xl lg:text-4xl">{children}</h3>
   ),
-  li: ({ children }) => (
-    <li className="text-base leading-normal pt-1">{children}</li>
+  h4: ({ children }) => (
+    <h4 className="text-lg sm:text-xl lg:text-3xl">{children}</h4>
   ),
-  img: ({ src }) => (
-    <img className="ml-[15%] lg:inline-flex lg:ml-0 lg:first:ml-52" src={src} />
+  h5: ({ children }) => (
+    <h5 className="text-md sm:text-lg lg:text-2xl">{children}</h5>
   ),
-  strong: ({ children }) => <strong className="text-xl">{children}</strong>,
-  a: ({ children, href }) => (
-    <Link
-      className="text-blue-500 hover:text-blue-700 visited:text-purple-800"
-      href={href}
-    >
+  h6: ({ children }) => (
+    <h6 className="text-base font-bold sm:text-md sm:font-normal lg:text-xl">
       {children}
+    </h6>
+  ),
+  p: ({ children }) => <p className="text-base">{children}</p>,
+  blockquote: ({ children }) => (
+    <blockquote className="bg-gray-200 p-1 italic rounded">
+      {children}
+    </blockquote>
+  ),
+  ul: ({ children }) => (
+    <ul className="list-inside list-disc ml-4">{children}</ul>
+  ),
+  li: ({ children }) => <li className="">{children}</li>,
+  img: ({ src }) => (
+    <img
+      className="w-full mx-auto object-contain object-center h-64 sm:mb-4 lg:h-96"
+      src={src}
+      alt="An Image"
+    />
+  ),
+  strong: ({ children }) => <strong className="font-bold">{children}</strong>,
+  a: ({ children, href }) => (
+    <Link className="" href={href} passHref>
+      <a className="text-green-600 visited:text-green-800 hover:text-green-700 active:text-green-800 hover:underline">
+        {children}
+      </a>
     </Link>
   ),
   wrapper: ({ components, ...rest }) => (
-    <main
-      className="lg:mx-auto prose prose-sm lg:prose-lg pb-52 w-full"
-      {...rest}
-    />
+    <main className="w-full px-12 space-y-2 text-gray-900 lg:px-72" {...rest} />
   ),
 };
 

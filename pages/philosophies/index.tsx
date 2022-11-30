@@ -37,26 +37,36 @@ const Philosophies = (
       <title>Native Nebraska - Philosophies</title>
     </Head>
     <h1 className="text-5xl lg:text-7xl text-center my-2">Philosophies</h1>
-    <table className="table w-1/2 mx-auto mt-3">
-      <thead>
-        <tr>
-          <th>Philosophies</th>
-        </tr>
-      </thead>
-      <tbody>
-        {props.files.map((file) => (
-          <tr key={file}>
-            <th>
-              <Link href={`/philosophies/${file}`} passHref>
-                <a className="mb-4 text-blue-400 hover:text-blue-600">
-                  {toTitleCase(file.replaceAll("-", " "))}
-                </a>
-              </Link>
-            </th>
-          </tr>
-        ))}
-      </tbody>
-    </table>
+    <ul className="w-full">
+      {props.files.map((f) => (
+        <li key={f}>
+          <Link href={`/philosophies/${f}`} passHref>
+            <a className="text-gray-900 text-xl">
+              <div className=" border-b border-solid border-gray-900 mx-12 hover:text-gray-100 hover:bg-green-600 py-2 group active:bg-green-700">
+                <div className="flex">
+                  <span className="ml-2 mr-auto">
+                    {toTitleCase(f.replaceAll("-", " "))}
+                  </span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-chevron-right self-center hidden group-hover:block mr-2"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </a>
+          </Link>
+        </li>
+      ))}
+    </ul>
   </>
 );
 

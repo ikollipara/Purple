@@ -49,7 +49,7 @@ const Lessons = (props: InferGetStaticPropsType<typeof getStaticProps>) => (
                     width="16"
                     height="16"
                     fill="currentColor"
-                    class="bi bi-chevron-right self-center hidden group-hover:block mr-2"
+                    className="bi bi-chevron-right self-center hidden group-hover:block mr-2"
                     viewBox="0 0 16 16"
                   >
                     <path

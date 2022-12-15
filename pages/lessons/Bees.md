@@ -12,23 +12,18 @@
 **Click the arrow to reveal answer**
 
 What are some similarities bees have to humans?
-- <details>
-    <summary></summary>
-    Both have eyes and legs
-</details>
+- Both have eyes and legs
+
 
 What are the functions of these similarities?
-- <details>
-    <summary></summary>
-    Eyes help us see 
-    Legs help us walk
-</details>
+
+- Eyes help us see 
+- Legs help us walk
+
 
 What are some differences between bees and humans?
-- <details>
-    <summary></summary>
-    Insects have 6 legs. Humans have 2 legs.
-</details>
+- Insects have 6 legs. Humans have 2 legs.
+
 
 Introduce new concept: Bees see things differently than you!!!
 - Humans see red, blue and green light
@@ -99,10 +94,8 @@ Activity: With a piece of paper, write down 3-5 colors and match them to a diffe
 
 ## Questions:
 - What were some hints the leader gave that helped you find the food?
-    <details>
-    <summary></summary>
-    ex: the leader running to the side of the circle and jumping up and down let us know where the food was
-</details>
+  - ex: the leader running to the side of the circle and jumping up and down let us know where the food was
+
 
 - What's one thing that would have helped you find the food easier?
 - Do you think after a while of somebody doing the exact same dance, you would understand what they meant by it?
